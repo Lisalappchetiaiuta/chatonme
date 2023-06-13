@@ -1,0 +1,7 @@
+{
+    "bitbucket-pull-requests.serverURL": "https://bitbucket.org/chatonmme/chat/",
+    "debug.javascript.defaultRuntimeExecutable": {
+      
+      "pwa-node": "node"
+    }
+}

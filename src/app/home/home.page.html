@@ -1,20 +1,49 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
     <ion-title>
-      Blank
+      <span>Feed</span>
+      <ion-icon name="chevron-down-outline"></ion-icon>
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="assets/imgs/profile-pic.jpg" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>Nome Utente</h2>
+        <p class="post-date">2 ore fa</p>
+        <p class="post-text">Questo è il testo del post. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <img class="post-image" src="assets/imgs/post-image.jpg" />
+        <ion-button fill="clear" class="like-button">
+          <ion-icon name="heart"></ion-icon>
+          15
+        </ion-button>
+        <ion-button fill="clear" class="comment-button">
+          <ion-icon name="chatbox"></ion-icon>
+          5
+        </ion-button>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="assets/imgs/profile-pic-2.jpg" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>Nome Utente 2</h2>
+        <p class="post-date">1 giorno fa</p>
+        <p class="post-text">Questo è un altro post. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <ion-button fill="clear" class="like-button">
+          <ion-icon name="heart"></ion-icon>
+          10
+        </ion-button>
+        <ion-button fill="clear" class="comment-button">
+          <ion-icon name="chatbox"></ion-icon>
+          3
+        </ion-button>
+      </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>

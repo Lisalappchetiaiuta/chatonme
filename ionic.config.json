@@ -1,5 +1,7 @@
 {
   "name": "chatonme",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
